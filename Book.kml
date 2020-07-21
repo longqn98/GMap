@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<open>1</open>
+	<Style id="sn_download">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>C:/Users/LAPTOPSN/Desktop/download.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_download">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_download</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_download</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_download">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>C:/Users/LAPTOPSN/Desktop/download.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Nhà Sách Vạn Hoa</name>
+		<LookAt>
+			<longitude>105.7819341631683</longitude>
+			<latitude>21.0644586645726</latitude>
+			<altitude>0</altitude>
+			<heading>4.026043009009477e-06</heading>
+			<tilt>0</tilt>
+			<range>9816.089380539508</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_download</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7819341631683,21.0644586645726,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Sách HT</name>
+		<LookAt>
+			<longitude>105.7779233011362</longitude>
+			<latitude>21.0697472998666</latitude>
+			<altitude>0</altitude>
+			<heading>4.085001064844593e-10</heading>
+			<tilt>0</tilt>
+			<range>1036.888154399451</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_download</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7779232995786,21.06959794992309,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Sách Cổ Nhuế</name>
+		<LookAt>
+			<longitude>105.7805672151308</longitude>
+			<latitude>21.05711720702793</latitude>
+			<altitude>0</altitude>
+			<heading>2.381067541072977e-05</heading>
+			<tilt>10.08495588196281</tilt>
+			<range>582.0575123463218</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_download</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7805032452935,21.05721894685408,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Sách Quảng Văn</name>
+		<LookAt>
+			<longitude>105.7660970002604</longitude>
+			<latitude>21.04476664979148</latitude>
+			<altitude>0</altitude>
+			<heading>9.35035368030052e-11</heading>
+			<tilt>0</tilt>
+			<range>1000.000117412692</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_download</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7659076121086,21.04304094328836,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
